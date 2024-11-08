@@ -1,0 +1,152 @@
+.container {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.dice-game-text {
+  font-size: 76px;
+  font-family: none;
+  font-weight: 900;
+}
+.dice-contain .play-not-btn {
+  background-color: black;
+  color: white;
+  width: 50%;
+}
+
+.dice-contain .play-not-btn:hover {
+  background-color: black;
+  color: white;
+  width: 50%;
+}
+.dice-contain {
+  text-align: start;
+}
+
+.dice-image {
+  width: 150px;
+}
+
+.start-game-main {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.start-game-items {
+  display: flex;
+  gap: 10px;
+}
+
+.start-game-main .dice-element {
+  border: 1px solid;
+  width: 36px;
+  height: 40px;
+  /* display: flex; */
+  /* align-items: center; */
+  background: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+.start-game-main .selected{
+  background: chocolate;
+  color: black;
+}
+.start-game-main .selected:hover{
+  background: chocolate;
+  color: black;
+}
+.start-game-main .dice-element:hover {
+  border: 1px solid;
+  width: 36px;
+  height: 40px;
+  /* display: flex; */
+  /* align-items: center; */
+  background: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+.dice-image-box {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.dice-button-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  /* align-items: center; */
+}
+
+.dice-button-box .reset-button {
+  background: black;
+  color: white;
+  font-family: emoji;
+  font-size: medium;
+  font-weight: 600;
+  width: 262px;
+  margin: auto;
+}
+
+.dice-button-box .reset-button:hover {
+  background: black;
+  color: white;
+  font-family: emoji;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.list-item {
+  text-align: start;
+}
+
+.heading-rules {
+  text-align: justify;
+  margin-left: 20px;
+  font-weight: 900;
+}
+
+.dice-button-box .active {
+  background: black;
+  color: white;
+  font-family: emoji;
+  font-size: medium;
+  font-weight: 600;
+  width: 262px;
+  margin: auto;
+}
+.dice-button-box .deactive {
+  /* background:white; */
+  color: white;
+  font-family: emoji;
+  font-size: medium;
+  font-weight: 600;
+  width: 262px;
+  margin: auto;
+}
+
+.dice-button-box .active:hover {
+  background: black;
+  color: white;
+  font-family: emoji;
+  font-size: medium;
+  font-weight: 600;
+}
+.dice-button-box .deactive:hover {
+  /* background:white; */
+  color: black;
+  font-family: emoji;
+  font-size: medium;
+  font-weight: 600;
+}
